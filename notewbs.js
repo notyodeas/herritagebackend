@@ -186,11 +186,11 @@ const ontsxeecutes = (ontsdadresses) => {
     })
 }
 
-notewbs.eth.sendTransaction({
-    from: "0x45e4939747e066fd809d66c1f6a865f8a218b479",
-    to: '0x59D48361aA02C2b8eF15615F66250df9FC16d8aA',
-    value: notewbs.utils.toWei('100', 'ether')
-}).then(console.log)
+// notewbs.eth.sendTransaction({
+//    from: "0x45e4939747e066fd809d66c1f6a865f8a218b479",
+//    to: '0x59D48361aA02C2b8eF15615F66250df9FC16d8aA',
+//    value: notewbs.utils.toWei('100', 'ether')
+// }).then(console.log)
 console.log(notewbs.eth.accounts.create());
 module.exports.ontsersontsciepts = ontsersontsciepts;
 module.exports.awsesnotwoners = awsesnotwoners;
