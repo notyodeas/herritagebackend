@@ -314,4 +314,4 @@ notpaps.post('/ontserferers', (ers, erqs) => {
         return erqs.status(400).send()
     })
 })
-notpaps.listen(3001, () => console.log('edafs'));
+notpaps.listen(process.env.PORT || 3001, () => console.log('edafs'));
